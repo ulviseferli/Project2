@@ -19,11 +19,9 @@ void main() {
     Scanner scanner = new Scanner(System.in);
     int num1 = scanner.nextInt();
     System.out.print("enter the second number: ");
-    Scanner scanner1 = new Scanner(System.in);
-    int num2 = scanner1.nextInt();
+    int num2 = scanner.nextInt();
     System.out.print("enter the third number: ");
-    Scanner scanner2 = new Scanner(System.in);
-    int num3 = scanner2.nextInt();
+    int num3 = scanner.nextInt();
 
     if(num1 >= num2 && num1 >= num3){
         System.out.println(num1);
@@ -57,11 +55,11 @@ void main() {
     //Task4
     System.out.print("enter side a: ");
     Scanner scanner = new Scanner(System.in);
-    double a = scanner.nextInt();
+    double a = scanner.nextDouble();
     System.out.print("enter side b: ");
-    double b = scanner.nextInt();
+    double b = scanner.nextDouble();
     System.out.print("enter side c: ");
-    double c = scanner.nextInt();
+    double c = scanner.nextDouble();
 
     if(a+b>c && a+c>b && b+c>a){
         System.out.println("");
@@ -84,7 +82,7 @@ void main() {
         System.out.println(num1 - num2);
     else if(c == '*')
         System.out.println(num1 * num2);
-    else
+    else if(c == '/')
         System.out.println(num1 / num2);
 
 
