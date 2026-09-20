@@ -39,13 +39,13 @@ void main() {
     if(score >= 91){
         System.out.println("A");
     }
-    else if(score <= 90 && score >= 81){
+    else if(score >= 81){
         System.out.println("B");
     }
-    else if(score <= 80 && score >= 71){
+    else if(score >= 71){
         System.out.println("C");
     }
-    else if(score <= 70 && score >=61){
+    else if(score >=61){
         System.out.println("D");
     }
     else {
